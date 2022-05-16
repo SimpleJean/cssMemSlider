@@ -130,3 +130,35 @@ label:hover {
 #i_6:checked ~ .controls label[for='i_6'] {
   color: #7f0000;
 }
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    width: 96vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    width: 96vw;
+    padding: 0;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .image {
+    width: 96vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  p {
+    font-size: calc(3vw + 3vh);
+  }
+}
